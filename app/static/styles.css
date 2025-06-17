@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #FFB6C1; /* Pastel pink */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+/* File Input Styling */
+input[type="file"] {
+    background-color: #FFF0F5; /* Pastel lavender */
+    border: 2px solid #D8BFD8; /* Light lavender */
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="file"]:hover {
+    background-color: #E6E6FA; /* Light lavender */
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #98FB98; /* Pastel green */
+    border: 2px solid #90EE90; /* Light green */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #90EE90; /* Lighter green */
+}
+
+/* Prediction Section */
+.prediction-result {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFF5EE; /* Pastel peach */
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.prediction-result h2 {
+    font-size: 24px;
+    color: #FF6347; /* Tomato red to highlight prediction */
+}
+
+.prediction-result .predicted-animal {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FF4500; /* Deep orange to make the prediction stand out */
+}
+
+/* Footer */
+footer {
+    background-color: #FFB6C1; /* Pastel pink */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
